@@ -1,4 +1,5 @@
-
+# Big O of Logorithmic n, also known for splitting the input size by 2
+# the input size grows on a logarithmic time complexity
 def BinarySearch(target: int, nums: list[int]) -> int:
     #low is the first number in the array
     #high is the last number in the array

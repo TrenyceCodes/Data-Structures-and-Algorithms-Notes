@@ -4,7 +4,7 @@
 x = 5 + (15 * 20)
 print(x)
 
-def addUp(n: int) -> int:
+def addUp(n: int) -> float:
     total = n * (n+1)/2
     return total
 
@@ -52,11 +52,3 @@ def count_odds(arr: list[int]):
 nums.append(4)
 nums.pop()
 
-def has_duplicates(arr: list[int]) -> bool: 
-    for i in range(len(arr)):
-        for j in range(i+1, len(arr)):
-            if arr[i] == arr[j]:
-                return True
-    return False
-
-print(has_duplicates(nums))
